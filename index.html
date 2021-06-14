@@ -5,15 +5,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Zomato</title>
 </head>
 
+
 <body>
+
     <header>
         <nav class="navbar">
             <div class="navbar__brand">
@@ -24,6 +26,150 @@
             </div>
         </nav>
     </header>
+
+    <main class="container">
+        <!--Hero section-->
+        <section class="hero__container">
+            <div class="hero__image__container">
+                <img src="assets/hero.jpg" alt="hero image" class="hero__image" />
+                <img src="assets/svg/herobgpattren.svg" class="hero__bgpattern" />
+                <img src="assets/svg/heroShape.svg" class="hero__shape" />
+            </div>
+            <div class="hero__description">
+                <h1 class="hero__text"> Order food from your favourite restaurants near you.</h1>
+                <button class="button__primary">Order Now</button>
+            </div>
+        </section>
+
+        <!--About section-->
+        <section class="about__container">
+            <div class="about__media__container">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/ojZIgseX7Xo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen class="about__media">
+                    Your Browser does not support this Video any more.
+                </iframe>
+                <div class="about__media__bg"></div>
+            </div>
+            <div class="about__description">
+                <h4 class="about__text">
+                    Your food will be prepared safely with an experienced chef, without compromising on the quality and
+                    hygiene.
+                </h4>
+            </div>
+        </section>
+
+        <!-- Explore Menu -->
+        <section class="explore__menu__container">
+            <h1 class="explore__menu__text">Explore Our Menu</h1>
+            <div class="explore__menu__gradient__bg"></div>
+            <div class="explore__menu__lists">
+                <!-- Burger -->
+                <div class="food__card">
+                    <div class="food__card__image__container">
+                        <img src="assets/burger.jpg" alt="burger" class="food__image" />
+                    </div>
+                    <div class="food__card__description">
+                        <h3 class="food__title">Burger</h3>
+                        <p>
+                            Burger King, Mcdonalds, Burger Place
+                            <span style="color: red">+3</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- Pizza -->
+                <div class="food__card" id="pizza__card">
+                    <div class="food__card__image__container">
+                        <img src="assets/pizza.jpg" alt="pizza" class="food__image" />
+                    </div>
+                    <div class="food__card__description">
+                        <h3 class="food__title">Pizza</h3>
+                        <p>
+                            Pizza Hut, Domino's Pizza
+                            <span style="color: red">+3</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- Ice Cream -->
+                <div class="food__card">
+                    <div class="food__card__image__container">
+                        <img src="assets/iceCream.jpg" alt="ice cream" class="food__image" />
+                    </div>
+                    <div class="food__card__description">
+                        <h3 class="food__title">Ice Cream</h3>
+                        <p>
+                            Baskin Robins, Ibaco
+                            <span style="color: red">+3</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="explore__menu__view__more">
+                <button class="button__menu">View More</button>
+            </div>
+        </section>
+
+        <!-- Restaurant list -->
+        <section class="restaurant__container">
+            <h1 class="restaurant__text">Order From 100s of restaurants</h1>
+            <div class="restaurant__images__container">
+                <div class="restaurant__images__row__one">
+                    <div class="restaurant__image__1">
+                        <img src="assets/restaurant1.jpg" alt="restaurant1" class="restaurant__1" />
+                    </div>
+                    <div class="restaurant__image__2">
+                        <img src="assets/restaurant2.jpg" alt="restaurant2" class="restaurant__2" />
+                    </div>
+                </div>
+                <div class="restaurant__images__row__two">
+                    <div class="restaurant__image__3">
+                        <img src="assets/restaurant3.jpg" alt="restaurant3" class="restaurant__3" />
+                    </div>
+                    <div class="restaurant__image__4">
+                        <img src="assets/restaurant4.jpg" alt="restaurant4" class="restaurant__4" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Updates Section-->
+        <section class="update__container">
+            <h2 class="update__text">Stay Updated</h2>
+            <div class="update__information">
+                <input type="text" placeholder="xyz@email.com" class="update__input" />
+                <button class="button__update">Get Updates</button>
+            </div>
+        </section>
+
+        <!--Quote Section-->
+        <section class="quote__container">
+            <div class="quote__bg__image">
+                <img src="https://www.onholdinc.com/mohblog/wp-content/uploads/2018/03/restaurant.jpg" alt="Quotation"
+                    class="quote__image" />
+            </div>
+            <div class="quote__description">
+                <h1 class="quote__text">When a man's stomach is full it makes no difference whether he is rich or poor.
+                </h1>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer__container">
+            <div class="foot__brand">
+                <img src="https://zomato-landing-page-notes.vercel.app/assets/logo.png" alt="footer"
+                    class="foot__image" />
+            </div>
+            <div class="foot__list__items">
+                <div class="foot__list">Pricing</div>
+                <div class="foot__list">Terms and condition</div>
+                <div class="foot__list">Partnership</div>
+                <div class="foot__list">Career</div>
+                <div class="foot__list">Contact</div>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
