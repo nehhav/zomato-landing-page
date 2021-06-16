@@ -95,6 +95,7 @@ body {
 
 .hero__text {
   font-size: 30px;
+  color: #1d3557;
   margin: 20px 0;
 }
 
@@ -116,13 +117,9 @@ body {
 }
 
 .about__text {
-  width: 100%;
   font-size: 20px;
+  color: #1d3557;
   margin: 20px 0;
-  font-weight: 200;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
 .about__media__container {
@@ -166,8 +163,9 @@ body {
 }
 
 .explore__menu__text {
-  font-size: 35px;
-  color: navy;
+  font-size: 30px;
+  color: #1d3557;
+  margin: 20px 0;
   text-align: center;
 }
 
@@ -219,9 +217,8 @@ body {
 
 .restaurant__text {
   font-size: 30px;
-  margin-top: 50px;
-  margin-bottom: 25px;
-  text-align: center;
+  color: #1d3557;
+  margin: 20px 0;
 }
 .restaurant__images__container {
   width: 100%;
@@ -273,12 +270,13 @@ body {
   gap: 3px;
 }
 
-.update__input {
-  width: 100%;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: rgba(228, 226, 226, 0.63);
-  border: 1px solid grey;
+.email__input {
+  border: 1px solid #ee89a0;
+  background-color: #fcedf0;
+  color: #1d3557;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 4px;
 }
 
 .button__update {
@@ -318,6 +316,7 @@ body {
   filter: blur(3px);
   -webkit-filter: blur(3px);
   box-shadow: inset 0px 0px 150px black;
+  height: 35%;
 }
 
 .quote__description {
@@ -490,6 +489,15 @@ body {
 @media (min-width: 1020px) {
   .container {
     max-width: 1250px;
+  }
+
+  .quote__image {
+    width: 1300px;
+    border-radius: 20px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    box-shadow: inset 0px 0px 150px black;
+    height: 500px;
   }
 
   .navbar {
